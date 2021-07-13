@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Alyssa Nolan's Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light shadow p-3 mb-5 rounded">
+                <div class = "text-nowrap">
+                    <h1 id="name"><span class="font_change">p</span>ORTFOLIO</h1>
+                </div>                
+              <div class="container-fluid justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link linkstyle" href="#About Me">About&nbsp;Me</a> <!--&nbsp; is used to not have a line break in the link -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkstyle" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkstyle" href="#Contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle linkstyle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resumes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item shadow p-2 mb-2 bg-body rounded" href="#"><i class="fas fa-file"></i> Web Development Resume</a></li>
+                          <li><a class="dropdown-item shadow p-2 mb-2 bg-body rounded" href= "./Assets/Resume_ANolan_May2021.pdf" target=_blank><i class="fas fa-file"></i> Engineering Resume</a></li>
+                        </ul>
+                    </li>
+                </ul>            
+              </div>
+            </nav>
+          </div>
+          
+    </header>
+
+    <main>
+        <!-- About Me Section: -->
+        <div class="jumbotron p-5 mb-2" id="About Me">
+            <div class="row featurette p-5 mb-2">
+                <div class="col-md-3">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Female portrait photo" id = "profile_pic" src="./Assets/photo_me.jpg" data-holder-rendered="true">
+                </div>
+                <div class="col-md-9">
+                    <h1 id="name"><span class="font_change">a</span>BOUT <span class="font_change">m</span>E</h1>
+                    <h2 class="featurette-heading">Alyssa Nolan</h2>
+                    <h3 class="text-muted">Full-Stack Web Developer. Chemical Engineer.</h3>
+                    <p class="lead">Welcome! My name is Alyssa and I am a chemical engineer with an strong interest in programming. I have worked in multiple industries, 
+                        including automotive, biotech and teaching. As a project leader I bring strong organizational skills with experience completing milestones on target and 
+                        presenting to upper management.I am using programming to further my development in this ever-evolving technical landscape. I currently 
+                        use HTML, CSS, and JacaScript.</p>
+                </div>  
+            </div>
+        </div>
+    <!-- Work Section: -->
+    <hr class="featurette-divider m-5">
+    <div class = "container" id = "projects">
+      <h1 id="name"><span class="font_change">p</span>ROJECTS</h1>
+       <div class="container mt-5">
+            <div class="content">
+              <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                <div class="project-details fadeIn-left">
+                  <h3>This is a title</h3>
+                  <p>This is a short description</p>
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="container">
+            <div class = "row">
+                <div class="content col">
+                    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                      <div class="project-details fadeIn-left">
+                        <h3>This is a title</h3>
+                        <p>This is a short description</p>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="content col">
+                      <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                        <div class="project-details fadeIn-left">
+                          <h3>This is a title</h3>
+                          <p>This is a short description</p>
+                        </div>
+                      </a>
+                    </div>
+            </div>   
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        <div class="container">
+            <div class = "row">
+                <div class="content col">
+                    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                      <div class="project-details fadeIn-left">
+                        <h3>This is a title</h3>
+                        <p>This is a short description</p>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="content col">
+                      <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                        <div class="project-details fadeIn-left">
+                          <h3>This is a title</h3>
+                          <p>This is a short description</p>
+                        </div>
+                      </a>
+                    </div>
+            </div>   
+        </div>
+        
+        <hr class="featurette-divider">
+
+
+       
+
+    </div>
+    
+
+
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src = "./script.js"></script>
+</body>
+
+
+
+
+</html>
