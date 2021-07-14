@@ -106,7 +106,12 @@
     font-size: 2vw;
     color: #fff;
   }
-  .git-link:hover{
+  .toplink{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:grey;
+  }
+  .git-link:hover, .toplink:hover{
     color: rgb(233, 35, 134);
   }
 
