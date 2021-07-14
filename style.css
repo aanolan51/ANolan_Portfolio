@@ -37,6 +37,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    box-shadow: 5px 3px 3px rgb(148, 147, 147);
   }
   
   .content .content-overlay {
@@ -97,6 +98,18 @@
     left: 20%;
   }
 
+  .link{
+    text-decoration: none;
+  }
+  .git-link{
+    text-decoration: none;
+    font-size: 2vw;
+    color: #fff;
+  }
+  .git-link:hover{
+    color: rgb(233, 35, 134);
+  }
+
   /* List characteristics for the Contact section*/ 
 .list_contact{
   list-style-type: none;
@@ -121,9 +134,9 @@
   font-size: 3vw;
 }
 
-.contact_item_format:hover, .resume_item:hover{
+.contact_item_format:hover{
   color: white;
   background-color: rgb(233, 35, 134);
-  padding: 5%;
-  border-radius: 15px;
+  padding: 3%;
+  border-radius: 20px;
 }
