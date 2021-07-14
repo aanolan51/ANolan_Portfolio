@@ -6,7 +6,7 @@ My updated portfolio webpage using bootstrap. Projects, my resume, and contact i
 ## Usage
 This website is designed to be an interactive portfolio.
 
-![Screenshot of portfolio](.Assets/screenshot.png)
+![Screenshot of portfolio](./Assets/screenshot.png)
 
 Link: https://aanolan51.github.io/ANolan_Portfolio/
 
